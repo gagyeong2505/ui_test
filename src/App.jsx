@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import ButtonSection from './components/sections/ButtonSection';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           UI Test
         </Typography>
 
-        {/* 섹션들을 순차적으로 여기에 추가 */}
+        <ButtonSection />
 
       </Container>
     </Box>
