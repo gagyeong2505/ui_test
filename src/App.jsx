@@ -2,6 +2,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import ButtonSection from './components/sections/ButtonSection';
+import RadioSection from './components/sections/RadioSection';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </Typography>
 
         <ButtonSection />
+        <RadioSection />
 
       </Container>
     </Box>
